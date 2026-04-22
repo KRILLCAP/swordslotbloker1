@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "swordblocker",
+  "version": "1.0.0",
+  "name": "Sword Slot Blocker",
+  "description": "Блокирует смену слота при ударе мечом",
+  "authors": ["Me"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.SwordBlocker"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4"
+  }
+}
